@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="./emp_management.xsl" type="text/xsl"?>
+<company xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="./emp_management.xsd">
+    <employee emp-id="10000">
+        <emp-name>Jon Doe</emp-name>
+        <emp-age>37</emp-age>
+        <emp-salary>75000.50</emp-salary>
+        <emp-emailID>jon.doe@company.com</emp-emailID>
+        <emp-phonenum>9912031491</emp-phonenum>
+        <emp-designation>Junior Developer</emp-designation>
+    </employee>
+    <employee emp-id="10001">
+        <emp-name>Jane Doe</emp-name>
+        <emp-age>45</emp-age>
+        <emp-salary>89000.75</emp-salary>
+        <emp-emailID>jane.doe@company.com</emp-emailID>
+        <emp-phonenum>9112731200</emp-phonenum>
+        <emp-designation>Senior Developer</emp-designation>
+    </employee>
+    <employee emp-id="10002">
+        <emp-name>Michael Scott</emp-name>
+        <emp-age>51</emp-age>
+        <emp-salary>52000.00</emp-salary>
+        <emp-emailID>michael.scott@company.com</emp-emailID>
+        <emp-phonenum>8942691420</emp-phonenum>
+        <emp-designation>Team Leader</emp-designation>
+    </employee>
+    <employee emp-id="10003">
+        <emp-name>Advaith Kapur</emp-name>
+        <emp-age>32</emp-age>
+        <emp-salary>60000.00</emp-salary>
+        <emp-emailID>advaith.kapur@company.com</emp-emailID>
+        <emp-phonenum>9910331937</emp-phonenum>
+        <emp-designation>Junior Developer</emp-designation>
+    </employee>
+    <employee emp-id="10004">
+        <emp-name>Kalpana Gokhale</emp-name>
+        <emp-age>46</emp-age>
+        <emp-salary>90000.00</emp-salary>
+        <emp-emailID>kalpana.gokhale@company.com</emp-emailID>
+        <emp-phonenum>9001237893</emp-phonenum>
+        <emp-designation>Senior Developer</emp-designation>
+    </employee>
+</company>

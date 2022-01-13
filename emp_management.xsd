@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ems:schema xmlns:ems="http://www.w3.org/2001/XMLSchema">
+<ems:element name="company" type="root" />
+
+<ems:complexType name="root">
+    <ems:sequence>
+        <ems:element name="employee" type="employeeElement" maxOccurs="unbounded" />
+    </ems:sequence>    
+</ems:complexType>
+
+<ems:complexType name="employeeElement">
+    <ems:sequence>
+        <ems:element name="emp-name" type="ems:string" />
+        <ems:element name="emp-age" type="ems:integer" />
+        <ems:element name="emp-salary">
+            <ems:simpleType>
+                <ems:restriction base="ems:decimal">
+                    <ems:minInclusive value="50000.00" />
+                    <ems:maxInclusive value="200000.00" />
+                </ems:restriction>
+            </ems:simpleType>
+        </ems:element>
+        <ems:element name="emp-emailID" type="ems:string" />
+        <ems:element name="emp-phonenum" type="ems:integer" />
+        <ems:element name="emp-designation" type="ems:string" />
+    </ems:sequence>
+    <ems:attribute name="emp-id" type="ems:integer" />
+</ems:complexType>
+</ems:schema>
