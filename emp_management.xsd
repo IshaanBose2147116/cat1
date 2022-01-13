@@ -24,6 +24,6 @@
         <ems:element name="emp-phonenum" type="ems:integer" />
         <ems:element name="emp-designation" type="ems:string" />
     </ems:sequence>
-    <ems:attribute name="emp-id" type="ems:integer" />
+    <ems:attribute name="emp-id" type="ems:integer" use="required" />
 </ems:complexType>
 </ems:schema>
